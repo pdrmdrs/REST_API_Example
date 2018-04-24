@@ -1,0 +1,25 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./backend/bin/www",
+    "dev": "nodemon ./backend/bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdrmdrs/REST_API_Example.git"
+  },
+  "author": "Pedro Medeiros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pdrmdrs/REST_API_Example/issues"
+  },
+  "homepage": "https://github.com/pdrmdrs/REST_API_Example#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3"
+  }
+}

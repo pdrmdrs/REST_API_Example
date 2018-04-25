@@ -1,6 +1,6 @@
-let app = require('../index');
+const app = require('../index');
 
-let port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 app.set('port', port);
 

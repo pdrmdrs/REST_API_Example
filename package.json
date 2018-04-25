@@ -20,6 +20,10 @@
   "homepage": "https://github.com/pdrmdrs/REST_API_Example#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "nodemon": "^1.17.3"
+    "nodemon": "^1.17.3",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.6",
+    "sequelize-cli": "^4.0.0"
   }
 }

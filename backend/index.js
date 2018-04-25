@@ -17,6 +17,9 @@ app.get('/', (req, res, next) => res.redirect('/api/v1'));
 app.use(function(req, res, next) {
     let err = new Error('Not found.');
     err.status = 404;
+    res.json({
+        message: 'Error - 404: Url not found.'
+    });
     next(err);
 });
 
